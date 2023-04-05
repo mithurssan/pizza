@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D5ACA9;
+    font-family: sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.places-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card-body {
+    height: 265px;
+}
+
+.container h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 15px;
+}
